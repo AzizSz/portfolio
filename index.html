@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aziz | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50" style="background: #0a0a0a;">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold" style="color: #f5f0e8;">Abdulaziz AlMejna</span>
+            <ul class="flex gap-8">
+                <li><a href="#hero" class="hover:opacity-60 transition" style="color: #888;">Home</a></li>
+                <li><a href="#projects" class="hover:opacity-60 transition" style="color: #888;">Projects</a></li>
+                <li><a href="#contact" class="hover:opacity-60 transition" style="color: #888;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="min-h-screen flex items-center">
+        <div class="w-full max-w-6xl mx-auto px-8 grid grid-cols-2 gap-16 items-center">
+
+            <!-- Left Text -->
+            <div>
+                <p class="text-sm uppercase tracking-widest mb-4" style="color: #888;">
+                    Frontend Developer
+                </p>
+                <h1 class="font-black uppercase leading-none mb-8"
+                   style="font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 6vw, 6rem);">
+                    Abdulaziz<br>AlMejna
+                </h1>
+                <p class="text-lg mb-10" style="color: #888; max-width: 400px;">
+                    Computer Science Student at King Faisal University. Passionate about crafting beautiful and functional web experiences.
+                </p>
+                <div class="flex gap-6">
+                    <a href="#projects" class="px-8 py-3 font-semibold hover:opacity-80 transition"
+                        style="background: #f5f0e8; color: #0a0a0a;">
+                        View Projects
+                    </a>
+                    <a href="#contact" class="px-2 py-3 hover:opacity-60 transition"
+                        style="color: #f5f0e8; border-bottom: 1px solid #f5f0e8;">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div>
+                <img src="1-photo.jpeg" alt="Abdulaziz AlMejna"
+                    class="w-full object-cover"
+                    style="height: 100vh; object-position: center top;">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-24" style="background: #0a0a0a;">
+        <div class="max-w-6xl mx-auto px-8">
+
+            <p class="text-sm uppercase tracking-widest mb-2" style="color: #888;">My Work</p>
+            <h2 class="font-black uppercase mb-16"
+                style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 4rem); color: #f5f0e8;">
+                Recent Projects
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <!-- Card 1 -->
+                <div class="card p-8" style="background: #111; border: 1px solid #222;">
+                    <h3 class="text-xl font-semibold mb-2" style="color: #f5f0e8;">DripWise</h3>
+                    <p class="text-sm mb-6" style="color: #888;">A smart V60 calculator, that helps you brew the perfect cup of coffee.</p>
+                    <div class="flex gap-2 flex-wrap mb-6">
+                        <span class="text-xs px-3 py-1" style="background: #1a1a1a; color: #888; border: 1px solid #333;">Next.js</span>
+                        <span class="text-xs px-3 py-1" style="background: #1a1a1a; color: #888; border: 1px solid #333;">Tailwind</span>
+                        <span class="text-xs px-3 py-1" style="background: #1a1a1a; color: #888; border: 1px solid #333;">Radix UI</span>
+                    </div>
+                    <a href="https://github.com/AzizSz/drip-wise"
+                        class="text-sm uppercase tracking-widest hover:opacity-60 transition"
+                        style="color: #f5f0e8; border-bottom: 1px solid #f5f0e8; padding-bottom: 2px;">
+                        View Details →
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card p-8" style="background: #111; border: 1px solid #222;">
+                    <h3 class="text-xl font-semibold mb-2" style="color: #f5f0e8;">Project Name</h3>
+                    <p class="text-sm mb-6" style="color: #888;">Short description of the project.</p>
+                    <div class="flex gap-2 flex-wrap mb-6">
+                        <span class="text-xs px-3 py-1" style="background: #1a1a1a; color: #888; border: 1px solid #333;">Next.js</span>
+                        <span class="text-xs px-3 py-1" style="background: #1a1a1a; color: #888; border: 1px solid #333;">Tailwind</span>
+                    </div>
+                    <a href="#" class="text-sm uppercase tracking-widest hover:opacity-60 transition"
+                        style="color: #f5f0e8; border-bottom: 1px solid #f5f0e8; padding-bottom: 2px;">
+                        View Details →
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card p-8" style="background: #111; border: 1px solid #222;">
+                    <h3 class="text-xl font-semibold mb-2" style="color: #f5f0e8;">Project Name</h3>
+                    <p class="text-sm mb-6" style="color: #888;">Short description of the project.</p>
+                    <div class="flex gap-2 flex-wrap mb-6">
+                        <span class="text-xs px-3 py-1" style="background: #1a1a1a; color: #888; border: 1px solid #333;">Next.js</span>
+                        <span class="text-xs px-3 py-1" style="background: #1a1a1a; color: #888; border: 1px solid #333;">Tailwind</span>
+                    </div>
+                    <a href="#" class="text-sm uppercase tracking-widest hover:opacity-60 transition"
+                        style="color: #f5f0e8; border-bottom: 1px solid #f5f0e8; padding-bottom: 2px;">
+                        View Details →
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 text-center" style="background: #0a0a0a;">
+        <div class="max-w-xl mx-auto px-8">
+            <p class="text-sm uppercase tracking-widest mb-2" style="color: #888;">Say Hello</p>
+            <h2 class="font-black uppercase mb-6"
+                style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 4rem); color: #f5f0e8;">
+                Get In Touch
+            </h2>
+            <p class="text-lg mb-10" style="color: #888;">
+                Have a project in mind or just want to say hi? My inbox is always open.
+            </p>
+            <a href="mailto:asa.almejna@gmail.com"
+                class="px-8 py-3 font-semibold uppercase tracking-widest hover:opacity-80 transition"
+                style="background: #f5f0e8; color: #0a0a0a;">
+                Say Hello →
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-sm" style="color: #444; background: #0a0a0a;">
+        Built by Abdulaziz AlMejna &copy; 2026
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
